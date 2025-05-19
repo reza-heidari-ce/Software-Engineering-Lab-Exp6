@@ -73,7 +73,7 @@ volumes:
 
 ---
 
-## اجرای پروژه
+## اجرای وب سرور
 
 برای اجرای پروژه از دستور زیر استفاده می‌کنیم:
 
@@ -103,3 +103,12 @@ docker-compose up -d
 
 ![Screenshot 2025-05-17 225522](https://github.com/user-attachments/assets/225b4fd3-c9b5-47ff-83e4-d016540820a3)
 
+## ارسال درخواست با postman
+اپلیکیشن postman را اجرا کرده و سپس در گام اول به شکل زیر یک درخواست POST می‌زنیم و یک کاربر با یوزرنیم user1 و پسورد 1234 می‌سازیم.
+![Screenshot 2025-05-19 160531](https://github.com/user-attachments/assets/1563090d-7717-4245-b629-1c2fd7ba0cc4)
+
+حال با یک درخواست POST دیگر لاگین را انجام می‌دهیم.
+![Screenshot 2025-05-19 160615](https://github.com/user-attachments/assets/040e9933-e8c8-4527-bf10-cd03b83dc8b1)
+
+مشاهده می‌کنیم که کد 200 یعنی موفقیت آمیز بودن لاگین برگردانده شد، همچنین کوکی‌ها نیز تنظیم شدند.
+![Screenshot 2025-05-19 160632](https://github.com/user-attachments/assets/ed00af79-f4b4-45f1-b533-f463b5d3a87c)
