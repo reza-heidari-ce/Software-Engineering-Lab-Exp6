@@ -105,10 +105,25 @@ docker-compose up -d
 
 ## ارسال درخواست با postman
 اپلیکیشن postman را اجرا کرده و سپس در گام اول به شکل زیر یک درخواست POST می‌زنیم و یک کاربر با یوزرنیم user1 و پسورد 1234 می‌سازیم.
+
 ![Screenshot 2025-05-19 160531](https://github.com/user-attachments/assets/1563090d-7717-4245-b629-1c2fd7ba0cc4)
 
 حال با یک درخواست POST دیگر لاگین را انجام می‌دهیم.
+
 ![Screenshot 2025-05-19 160615](https://github.com/user-attachments/assets/040e9933-e8c8-4527-bf10-cd03b83dc8b1)
 
 مشاهده می‌کنیم که کد 200 یعنی موفقیت آمیز بودن لاگین برگردانده شد، همچنین کوکی‌ها نیز تنظیم شدند.
+
 ![Screenshot 2025-05-19 160632](https://github.com/user-attachments/assets/ed00af79-f4b4-45f1-b533-f463b5d3a87c)
+
+حال به وسیله یک ریکوئست POST، یک note با تایتل title1 و بدنه body1 می‌سازیم.
+
+![Screenshot 2025-05-19 160742](https://github.com/user-attachments/assets/2e9512a8-286d-4142-ab30-125ef5533699)
+
+حال به همین شکل یک note با تایتل title2 و بدنه body2 می‌سازیم.
+
+![Screenshot 2025-05-19 160814](https://github.com/user-attachments/assets/ff4bb5d7-6feb-4824-81e6-7d3c9e248c83)
+
+در نهایت نیز لیست note های کاربر را با استفاده از یک ریکوئست GET می‌گیریم و می‌بینیم که دو تا note ای که ساختیم نمایش داده می‌شود.
+
+![Screenshot 2025-05-19 161047](https://github.com/user-attachments/assets/f409528c-f4c4-4410-88d7-97e4401e63d5)
